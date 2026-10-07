@@ -1,6 +1,6 @@
 # Prompt Atlas｜分類提示詞工具箱
 
-188 個繁體中文提示詞範本，分為 16 類。這些是自然語言任務框架，不是 ChatGPT 官方指令大全。
+202 個提示詞範本，分為 16 類（以繁體中文為主，部分保留英文原文）。這些是自然語言任務框架，不是 ChatGPT 官方指令大全。
 
 網站：https://samyiqrs.github.io/prompt-atlas/
 
@@ -14,6 +14,8 @@
 ## 使用
 直接開啟 `index.html`，或瀏覽 GitHub Pages 網站。所有資料、CSS 與 JavaScript 都內嵌在單一 HTML，無需安裝或 API 金鑰。
 
+新增的 14 筆影像與影片提示詞整理自本機照片；其中部分範本加入可填欄位或使用提醒，不代表照片中的逐字原文。
+
 收藏僅保存在當前瀏覽器與網站來源的 localStorage，不會上傳或跨裝置同步。提示詞欄位須自行補齊；產出品質及可執行功能取決於使用的 AI 與工具。
 
 本儲存庫只包含網站發佈檔案，不包含本機測試環境。
@@ -22,11 +24,13 @@
 
 ## English Overview
 
-**Prompt Atlas** is a searchable library of **188 Traditional Chinese prompt templates across 16 categories**, including design, branding, marketing, writing, research, business strategy, software development, and data analysis.
+**Prompt Atlas** is a searchable library of **202 prompt templates across 16 categories**, including design, branding, marketing, writing, research, business strategy, software development, and data analysis.
 
-The library combines English task keywords with Traditional Chinese explanations and templates. These are natural-language prompting frameworks—not official ChatGPT slash commands or hidden features. This English overview documents the project; it does not imply that all templates are available in English.
+The library combines English task keywords with Traditional Chinese explanations and templates; some newly added templates retain English source wording. These are natural-language prompting frameworks—not official ChatGPT slash commands or hidden features. This English overview documents the project; it does not imply that all templates are available in English.
 
 **Live website:** https://samyiqrs.github.io/prompt-atlas/
+
+Fourteen image and video prompts were adapted from local photos; some have editable fields or usage notes rather than verbatim source wording.
 
 ### Features
 
