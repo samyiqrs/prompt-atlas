@@ -1,60 +1,48 @@
-# Prompt Atlas｜分類提示詞工具箱
+# Prompt Atlas｜提示詞速查工具箱
 
-202 個提示詞範本，分為 16 類（以繁體中文為主，部分保留英文原文）。這些是自然語言任務框架，不是 ChatGPT 官方指令大全。
+**301 個可直接複製的 AI 提示詞**，依「你想完成的事」分成 **7 大區、27 個分類**。每個分類都寫清楚：用途、什麼時候用、怎麼用最有效、在哪個工具用。
 
 網站：https://samyiqrs.github.io/prompt-atlas/
 
+## 7 大區
+- 🖼️ **圖片生成快捷指令**（98）：人像大頭照、商品攝影、產品拆解與 3D、廣告素材、品牌與 Logo、社群圖片、Mockup 與包裝、空間與美食、資訊圖表
+- 🎬 **影片與音樂**（27）：影片生成快捷指令、影像企劃與生圖技巧、音樂與聲音
+- ✍️ **內容、品牌與行銷**：設計規劃、品牌策略、行銷與成長、社群營運、寫作與編輯
+- 🧠 **學習、研究與思考**：學習、研究與查證、思考框架與提示詞優化
+- 💼 **商業、產品與職場**：策略、產品與 UX、專案流程、職場溝通
+- 💻 **程式與資料**
+- 🏠 **生活與個人規劃**
+
 ## 功能
-- 中英文搜尋、分類篩選、入門精選與字母排序
-- 可編輯範本、一鍵複製與手動複製備援
-- 瀏覽器本機收藏
-- 提示詞組合器
-- 手機與桌面響應式版面
+- 「我想要…」情境入口與工作流（例：/productshot → /colorways → /staticad → /productreel）
+- 中英文與斜線指令搜尋（`headshot`、`/productshot`、`大頭照` 都找得到），按 `/` 聚焦搜尋、Enter 開啟第一筆
+- 依產出類型篩選：出圖片／出影片／出文字
+- 「填寫欄位」：自動把提示詞中的【欄位】變成輸入框，填完即時組好提示詞再複製
+- 一鍵複製完整提示詞或短指令、卡片／清單兩種檢視
+- 本機收藏、最近複製紀錄、每個提示詞可分享連結（`#p=ID`）
+- 單一 HTML、無外部依賴，手機與桌面皆可用
 
-## 使用
-直接開啟 `index.html`，或瀏覽 GitHub Pages 網站。所有資料、CSS 與 JavaScript 都內嵌在單一 HTML，無需安裝或 API 金鑰。
+## 來源與說明
+- 100 個圖片／影片快捷指令（/headshot、/productshot…）的名稱與用途整理自《S 的 AI 研究所》公開資源〈100 個 ChatGPT 圖片與影片快捷指令〉（https://gptsavyy.com/resources/chatgpt-image-video-shortcuts ），完整提示詞由本站依用途改寫擴充。
+- 部分影像與影片提示詞整理自本機照片，加入可填欄位或使用提醒，不代表逐字原文。
+- 斜線指令**不是 OpenAI 官方內建指令**，只是好記的名稱；效果取決於完整描述與使用的工具。影片類需搭配支援影片生成的工具。
+- 收藏與最近使用只存在瀏覽器 localStorage，不會上傳或跨裝置同步。重要事實、來源與數字請自行查證。
 
-新增的 14 筆影像與影片提示詞整理自本機照片；其中部分範本加入可填欄位或使用提醒，不代表照片中的逐字原文。
-
-收藏僅保存在當前瀏覽器與網站來源的 localStorage，不會上傳或跨裝置同步。提示詞欄位須自行補齊；產出品質及可執行功能取決於使用的 AI 與工具。
-
-本儲存庫只包含網站發佈檔案，不包含本機測試環境。
+本儲存庫只包含網站發佈檔案，不包含本機建置與測試環境。
 
 ---
 
 ## English Overview
 
-**Prompt Atlas** is a searchable library of **202 prompt templates across 16 categories**, including design, branding, marketing, writing, research, business strategy, software development, and data analysis.
-
-The library combines English task keywords with Traditional Chinese explanations and templates; some newly added templates retain English source wording. These are natural-language prompting frameworks—not official ChatGPT slash commands or hidden features. This English overview documents the project; it does not imply that all templates are available in English.
+**Prompt Atlas** is a searchable library of **301 copy-ready prompt templates** organised into **7 areas and 27 categories**, including 100 image/video "shortcut" prompts (e.g. `/headshot`, `/productshot`). Each category explains what it is for, when to use it, and which tool to use it in.
 
 **Live website:** https://samyiqrs.github.io/prompt-atlas/
 
-Fourteen image and video prompts were adapted from local photos; some have editable fields or usage notes rather than verbatim source wording.
-
 ### Features
+- Scenario entry points ("I want to…") and clickable workflows
+- Search by Chinese, English or slash name; type filter (image / video / text)
+- Fill-in form that turns 【placeholders】 into inputs, then one-click copy
+- Favourites, recent history, card/list views, deep links (`#p=ID`)
+- Single self-contained HTML file; no installation, account or API key
 
-- **Search and browse:** Search by Chinese descriptions or English keywords, filter by category, explore beginner essentials, or sort alphabetically.
-- **Editable templates:** Open a complete prompt, customize it, and copy it. A manual-copy fallback is available if the browser blocks clipboard access.
-- **Local favorites:** Bookmark frequently used prompts in your browser.
-- **Prompt composer:** Combine a framework with your task, audience, constraints, and desired output. It assembles text locally; it does not call an AI service.
-- **Responsive layout:** Browse on desktop, tablet, or mobile.
-- **Offline-ready:** All library data, styles, and scripts are embedded in a single HTML file, with no external runtime dependencies.
-
-### Getting Started
-
-1. Visit the live website, or download `index.html` and open it in a modern browser with JavaScript enabled.
-2. Search for a task or choose a category.
-3. Open a template and replace the **【placeholder fields】** with your own context.
-4. Copy the completed prompt into ChatGPT or another AI assistant. Attach any referenced images or documents separately.
-
-No installation, account, or API key is required to use the library. Links to external documentation require an internet connection.
-
-### Privacy and Limitations
-
-- Favorites are stored in the current browser's `localStorage`, scoped to the site's origin. They are not uploaded or synchronized across devices. Favorites saved in an offline copy do not automatically carry over to the hosted website.
-- Edits made in the template dialog are not automatically saved when the dialog is closed.
-- Prompt keywords do not unlock additional AI capabilities. Results depend on the complete instructions, the chosen model, and its available tools.
-- Verify important facts, sources, calculations, and execution results independently.
-
-This repository contains only the published website files, not the local testing environment.
+The slash names are memorable labels, not official ChatGPT commands. Favourites are stored only in your browser's `localStorage`. Verify important facts, sources and calculations independently.
